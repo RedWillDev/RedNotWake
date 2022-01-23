@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Red Not Wake</string>
+    <string name="BackColorButton">BackButt</string>
+    <string name="TurnOff">Etindre</string>
+    <string name="TurnOn">Allumer</string>
+
+</resources>
