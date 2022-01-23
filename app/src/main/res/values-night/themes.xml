@@ -10,7 +10,15 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="DefaultText">
 
+        <item name="android:textColor">@color/red</item>
+
+        <item name="android:textSize">25sp</item>
+
+        <item name="android:fontFamily">@font/archive</item>
+
+    </style>
 
 
 </resources>
