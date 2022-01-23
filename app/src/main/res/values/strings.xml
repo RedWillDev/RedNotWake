@@ -3,5 +3,8 @@
     <string name="BackColorButton">BackButt</string>
     <string name="TurnOff">ETINDRE</string>
     <string name="TurnOn">ALLUMER</string>
+    <string name="TunON">TurnON</string>
+    <string name="TunOFF">TurnOFF</string>
+    <string name="LockDown">LockDown</string>
 
 </resources>

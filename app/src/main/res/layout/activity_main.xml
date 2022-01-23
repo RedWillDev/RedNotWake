@@ -41,6 +41,35 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.485"
-        style="@style/DefaultText"/>
+        style="@style/DefaultText"
+        />
+
+    <Button
+        android:id="@+id/lockdown"
+        style="@style/DefaultText"
+        android:layout_width="150sp"
+        android:layout_height="64sp"
+        android:background="@color/grey"
+        android:gravity="center"
+        android:onClick="LockDown"
+        android:text="@string/LockDown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <Spinner
+        android:id="@+id/Spinner"
+        android:layout_width="128sp"
+        android:layout_height="64sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
