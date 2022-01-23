@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         sendUDP("TurnOff")
     }
 
-    fun TurnOn(view: android.view.View) {
+    fun TurnOn(view: View) {
         sendUDP("TurnON")
     }
 }

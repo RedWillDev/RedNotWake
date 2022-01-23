@@ -12,30 +12,35 @@
         android:id="@+id/button_on"
         android:layout_width="128sp"
         android:layout_height="64sp"
+        android:background="@color/grey"
+        android:gravity="center"
         android:onClick="TurnOn"
         android:text="@string/TurnOn"
-        android:textColor="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintHorizontal_bias="0.752"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485" />
+        app:layout_constraintVertical_bias="0.485"
+        style="@style/DefaultText"
+        />
 
     <Button
         android:id="@+id/button_off"
         android:layout_width="128sp"
         android:layout_height="64sp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/grey"
+        android:gravity="center"
         android:onClick="TurnOff"
         android:text="@string/TurnOff"
-        android:textColor="@color/red"
-        app:layout_constraintEnd_toStartOf="@+id/button_on"
-        tools:layout_editor_absoluteY="324dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_on"
         app:layout_constraintHorizontal_bias="0.685"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.485"/>
+        app:layout_constraintVertical_bias="0.485"
+        style="@style/DefaultText"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
